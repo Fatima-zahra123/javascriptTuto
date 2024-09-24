@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=" stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        div.jeu {
+        height: 520px;
+        width: 520px;
+        }
+        div.case {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        float: left;
+        margin: 10px;
+        background-color: #9999FF;
+        }
+        img {
+        height: 100px;
+        width: 100px;
+        /* visibility: hidden; */
+        }
+        hr {
+        clear: both;
+        visibility: hidden;
+        }
+        </style>
+</head>
+<body>
+    <h1>Jeu de memory</h1>
+    <button type="button" id="dif">Difficile</button>
+    <button type="button" id="moy">moyen</button>
+    <div id="countdown"></div>
+<div class="jeu">
+<div class="case"  onclick="flip(1)" ><img id="img1" src="pho1.jpg" /></div>
+<div class="case" onclick="flip(2)" ><img id="img2" src="pho2.jpg" /></div>
+<div class="case" onclick="flip(3)" ><img id="img3" src="pho3.jpg" /></div>
+<div class="case" onclick="flip(4)"><img id="img4" src="pho4.jpg" /></div>
+<hr />
+<div class="case" onclick="flip(5)"><img id="img5" src="pho1.jpg" /></div>
+<div class="case" onclick="flip(6)"><img id="img6" src="pho2.jpg" /></div>
+<div class="case" onclick="flip(7)"><img id="img7" src="pho3.jpg" /></div>
+<div class="case" onclick="flip(8)"><img id="img8" src="pho4.jpg" /></div>
+
+<button onclick="cacher()">cacher</button>
+<p id="score">Le score : 0</p>
+
+</div>
+
+
+
+
+<script src="jav.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Paragraphes</title>
+        <link rel="stylesheet" href="page.css" >
+ 
+    </head>
+
+    <body>
+        <p>Vente Pizza</p>
+
+        <form method="post">
+            <p>
+                <label>Nom de client</label> : <input required type="text" name="pseudo" /><br><br><br>
+                <label>Adresse</label> : <input required type="text" name="pseudo" />
+            </p>
+        </form>
+
+<p>Produit à acheter</p>
+
+<table border="solide">
+    <tr>
+        <td>nom de produit</td>
+        <td>prix unitaire en DH</td>
+        <td>Quantité</td>
+    </tr>
+    <tr>
+        <td>pizza 4 fromages</td>
+        <td>80</td>
+        <td id="Q1"  imput>1</td>
+    </tr>
+    <tr>
+        <td>pizza Herbo</td>
+        <td>75</td>
+        <td id="Q2"></td>
+    </tr>
+    <tr>
+        <td>pizza Viande hachée</td>
+        <td>100</td>
+        <td id="Q3">2</td>
+    </tr>
+    <tr>
+        <td>pizza Fruit de mer</td>
+        <td>120</td>
+        <td id="Q4"></td>
+    </tr>
+ </table>
+
+ <p>paiement par:</p>
+<form name="myform" >
+    
+    <input type="radio" name="option1" value="Carte bancaire" > Carte Bancaire
+    <input type="radio" name="option1" value="chéque" > chéque<br>
+    
+    <br>
+    
+    </form>
+
+    <form method="post" >
+        <p>
+            <label>Numéro de la carte bancaire</label> : <input required type="text" name="pseudo" /><br>
+           
+        </p>
+<button type="button" class="buttonStyle">envoyer</button>
+
+
+
+<form method="post" >
+    <p>
+        <label>Merci de votre visite , le monant totale de votre commande est:</label> : <input type="text" name="pseudo" /><br>
+       
+    </p>
+
+

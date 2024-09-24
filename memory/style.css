@@ -1,0 +1,10 @@
+/* .case:active{
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        transform: rotateY(0deg);
+    }
+    to { transform: rotateY(180deg);}
+  } */
